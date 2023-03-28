@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/cygwin64/home/Regularized-Stokeslets'
+make.exe: Leaving directory `c:/cygwin64/home/Regularized-Stokeslets'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+ 

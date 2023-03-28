@@ -12,13 +12,17 @@ set (SF_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 find_package(GSL REQUIRED)
 link_libraries(GSL::gsl GSL::gslcblas)
 
-include_directories(${SF_DIR}/include)
+target_include_directories(${SF_DIR}/include)
+
 
 FILE(GLOB_RECURSE MYFILES ABSOLUTE  ${SF_DIR}/src/*.cpp)
 
 message("MYFILES: ${MYFILES}")
 message("SOURCE_DIR: ${SF_DIR}")
 message("GSL_STATUS: ${GSL_FOUND}")
-message("GSL_INCLUDE_DIR: ${GSL_INCLUDE_DIR}")
 
 add_executable(SF ${MYFILES})
+
+include_directories(${SF_DIR}/externals)
+find_package(Python REQUIRED COMPONENTS Development NumPy)
+target_link_libraries(SF PRIVATE Python::Python Python::NumPy)

@@ -1,0 +1,356 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sat Feb 05 12:32:01 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Manoj CN\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/cygwin64/home/Regularized-Stokeslets
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+FP_NO_HOST_CHECK = NO
+# environment
+ONEDRIVE = C:\Users\Manoj CN\OneDrive
+# environment
+ANSYS201_DIR = C:\Program Files\ANSYS Inc\ANSYS Student\v201\ANSYS
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+ICEMCFD_SYSDIR = win64_amd
+# environment
+TMP = C:\Users\MANOJC~1\AppData\Local\Temp
+# environment
+GYP_MSVS_VERSION = 2013
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+ANSYS_SYSDIR32 = win32
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-fe21c812-c4e0-426c-b7de-85a025061e27-sock
+# environment
+VSCODE_CWD = C:\Program Files\Microsoft VS Code
+# environment
+ANSYSLIC_DIR = C:\Program Files\ANSYS Inc\Shared Files\Licensing
+# environment
+PATH = C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files\Java\jdk1.8.0_25\bin;c:\windows\system32;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2018b\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32\Scripts;C:\Program Files\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx86\x86;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python37\;C:\Users\Manoj CN\AppData\Roaming\npm;C:\Program Files\OpenSSH;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\Manoj CN\AppData\Local\Microsoft\WindowsApps;C:\Users\Manoj CN\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Manoj CN\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32;C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32\Scripts;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx86\x86;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERPROFILE = C:\Users\Manoj CN
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+AWP_ROOT201 = C:\Program Files\ANSYS Inc\ANSYS Student\v201
+# environment
+ALTAIR_LICENSE_PATH = C:\Program Files\Altair\license\altair_lic.dat
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15836_PTDMSHTIFSNMEUJY
+# environment
+ANSYS_SYSDIR = winx64
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = MANOJ
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Manoj CN
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+STARCCM+_JAVA_HOME = C:\Program Files\CD-adapco\STAR-CCM+11.02.009\..\jdk\win64\jdk1.7.0_75
+# environment
+LSTC_LICENSE = ANSYS
+# environment
+CDLMD_LICENSE_FILE = C:\Program Files\CD-adapco\license.dat
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\MANOJ
+# environment
+ONEDRIVECONSUMER = C:\Users\Manoj CN\OneDrive
+# environment
+I_MPI_SMPD_VERSION_CHECK = disable
+# environment
+USERDOMAIN = MANOJ
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+G95_LIBRARY_PATH = C:\Program Files (x86)\lib\gcc-lib\i686-pc-mingw32\4.1.2;C:\Program Files (x86)\lib
+# environment
+P_SCHEMA = C:\Program Files\ANSYS Inc\ANSYS Student\v201\AISOL\CADIntegration\Parasolid\PSchema
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+PHP_FCGI_MAX_REQUESTS = 0
+# environment
+LOCALAPPDATA = C:\Users\Manoj CN\AppData\Local
+# environment
+PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# environment
+AWP_LOCALE170 = en-us
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\a280fce84de93d2548ddd8cef665d480-1.62.3-main-sock
+# environment
+HOMEPATH = \Users\Manoj CN
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+CADOE_LIBDIR201 = C:\Program Files\ANSYS Inc\ANSYS Student\v201\CommonFiles\Language\en-us
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+MPI_ROOT = C:\Program Files\CD-adapco\STAR-CCM+11.02.009\mpi\platform\9.1.4.0\windows
+# environment
+APPDATA = C:\Users\Manoj CN\AppData\Roaming
+# environment
+TEMP = C:\Users\MANOJC~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+AWP_LOCALE201 = en-us
+# default
+MAKEFILES := 
+# environment
+ANS_OLD_ATTACH = 1
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3a09
+# environment
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2021.3.1\bin;
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 15836
+# environment
+ANSYS170_DIR = C:\Program Files\ANSYS Inc\v170\ANSYS
+# environment
+USERDOMAIN_ROAMINGPROFILE = MANOJ
+# variable set hash-table stats:
+# Load=113/1024=11%, Rehash=0, Collisions=13/130=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files\Intel\iCLS Client\ (key C:/Program Files/Intel/iCLS Client/, mtime 1520575838): 19 files, no impossibilities.
+# C:\Program Files\OpenSSH (key C:/Program Files/OpenSSH, mtime 1543871691): 21 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Server 5.7\bin: could not be stat'd.
+# C:\Users\Manoj CN\AppData\Local\Programs\Python\Python37\ (key C:/Users/Manoj CN/AppData/Local/Programs/Python/Python37/, mtime 1641604057): 21 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1605270223): 30 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/Manoj CN/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1641686032): 36 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1642097098): 154 files, no impossibilities.
+# . (key c:/cygwin64/home/Regularized-Stokeslets, mtime 1644060715): 9 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1577382074): 11 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32 (key C:/Users/Manoj CN/AppData/Local/Programs/Python/Python310-32, mtime 1641597056): 4 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1494007011): 10 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Roaming\npm (key C:/Users/Manoj CN/AppData/Roaming/npm, mtime 1619729270): 32 files, no impossibilities.
+# C:\Program Files (x86)\bin (key C:/Program Files (x86)/bin, mtime 1548160851): 9 files, no impossibilities.
+# C:\Program Files\Java\jdk1.8.0_25\bin (key C:/Program Files/Java/jdk1.8.0_25/bin, mtime 1485417643): 56 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1520575841): 5 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1504182350): 12 files, no impossibilities.
+# C:\Program Files (x86)\Intel\iCLS Client\ (key C:/Program Files (x86)/Intel/iCLS Client/, mtime 1520575838): 16 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\ (key C:/Users/Manoj CN/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/, mtime 1582477207): 663 files, no impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1637965564): 4 files, no impossibilities.
+# C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin (key C:/Program Files (x86)/MySQL/MySQL Server 5.7/bin, mtime 1496081578): 34 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1366960744): 3 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1506653052): 134 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\Programs\Python\Python310-32\Scripts (key C:/Users/Manoj CN/AppData/Local/Programs/Python/Python310-32/Scripts, mtime 1641597006): 6 files, no impossibilities.
+# C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin (key C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin, mtime 1548161602): 58 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\GitHubDesktop\bin (key C:/Users/Manoj CN/AppData/Local/GitHubDesktop/bin, mtime 1619902630): 4 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1643742598): 7 files, no impossibilities.
+# C:\Users\Manoj CN\AppData\Local\Microsoft\WindowsApps (key C:/Users/Manoj CN/AppData/Local/Microsoft/WindowsApps, mtime 1639505729): 13 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Utilities 1.6\ (key C:/Program Files/MySQL/MySQL Utilities 1.6/, mtime 1496078527): 42 files, no impossibilities.
+# C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter: could not be stat'd.
+# C:\Program Files\JetBrains\PyCharm 2021.3.1\bin (key C:/Program Files/JetBrains/PyCharm 2021.3.1/bin, mtime 1641579133): 29 files, no impossibilities.
+# C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx86\x86 (key C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86, mtime 1639344452): 69 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1534616510): 8 files, no impossibilities.
+# c:\windows\system32 (key c:/windows/system32, mtime 1642105756): 3117 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1520575841): 10 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1366960744): 7 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1642016661): 10 files, no impossibilities.
+# C:\Program Files\MATLAB\R2018b\bin (key C:/Program Files/MATLAB/R2018b/bin, mtime 1548299704): 11 files, no impossibilities.
+
+# 4674 files, no impossibilities in 39 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Sat Feb 05 12:32:01 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+ 

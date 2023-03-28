@@ -1,0 +1,1 @@
+g++    -Wl,--enable-auto-import CMakeFiles/SF.dir/src/main.cpp.o  -o SF.exe -Wl,--out-implib,libSF.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /usr/local/lib/libgsl.dll.a /usr/local/lib/libgslcblas.dll.a 

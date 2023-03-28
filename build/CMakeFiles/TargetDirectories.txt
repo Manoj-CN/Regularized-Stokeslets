@@ -1,0 +1,3 @@
+/home/Regularized-Stokeslets/build/CMakeFiles/edit_cache.dir
+/home/Regularized-Stokeslets/build/CMakeFiles/SF.dir
+/home/Regularized-Stokeslets/build/CMakeFiles/rebuild_cache.dir
